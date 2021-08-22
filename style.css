@@ -1,0 +1,285 @@
+@import url("style/normalize.css");
+
+.header {
+  position: fixed;
+  background-color: #007765;
+  display: block;
+  width: 100%;
+  height: 84px;
+  z-index: 1;
+}
+
+.hat {
+  width: 1109px;
+  padding-left: 55px;
+  padding-right: 55px;
+  margin: 20px auto 16px auto;
+}
+
+.header > .hat > a > img {
+  float: left;
+  height: 45px;
+  width: 183px;
+}
+
+.menu {
+  float: right;
+}
+
+.menu > ul {
+  margin: 0px;
+  padding: 0px;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+.menu > ul > li {
+  display: inline-block;
+  color: #fff;
+}
+
+.menu > ul > li > a {
+  text-decoration: none;
+  color: #fff;
+  line-height: 48px;
+}
+
+.hat:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.clear {
+  clear: both;
+}
+
+.content {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 403px;
+  padding-top: 84px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.content > .picture {
+  width: 100%;
+  height: 100%;
+  min-width: 1219px;
+  text-align: center;
+}
+
+.content > .text {
+  text-align: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-size: 72px;
+  line-height: 84px;
+  color: #fff;
+  display: block;
+  position: absolute;
+  padding-top: 84px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tex {
+  display: block;
+  position: relative;
+  width: 1109px;
+  margin: 0 auto;
+  padding: 0 55px;
+  padding-top: 103px;
+  margin-top: -55px;
+}
+
+.tex > h2 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 0;
+}
+
+.tex > p {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 38px;
+  text-align: left;
+}
+
+.tex {
+  padding-bottom: 60px;
+}
+
+.content2 {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 483px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.content2 > .picture {
+  width: 100%;
+  height: 100%;
+  min-width: 1219px;
+}
+
+.content2 > .text {
+  text-align: center;
+  font-family: Roboto;
+  font-style: italic;
+  font-size: 48px;
+  line-height: 56px;
+  color: #fff;
+  display: block;
+  position: absolute;
+  width: 1109px;
+  padding: 0px 55px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tex2 {
+  display: block;
+  position: relative;
+  width: 1109px;
+  margin: 0 auto;
+  padding: 0 55px;
+  padding-top: 103px;
+  margin-top: -55px;
+  padding-bottom: 60px;
+}
+
+.tex2 > figure > img {
+  padding-right: 48px;
+  float: left;
+}
+
+.tex2 > figure {
+  margin: 0;
+  margin-top: 16px;
+}
+
+.tex2 > figure > figcaption {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 38px;
+  text-align: left;
+}
+
+.tex2 > h2 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 0;
+}
+
+.tex2 > p {
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  line-height: 38px;
+  text-align: left;
+}
+
+.grow {
+  background: #eeeeee;
+  width: 100%;
+  min-width: 1219px;
+  padding-top: 55px;
+  margin-top: -55px;
+}
+
+.grow > .names {
+  display: block;
+  width: 1109px;
+  margin: 0 auto;
+  padding: 0 55px;
+}
+
+.grow > .names > h2 {
+  font-family: Roboto;
+  font-size: 64px;
+  font-style: normal;
+  line-height: 75px;
+  text-align: center;
+  color: #007765;
+  margin: 0;
+  padding-top: 58px;
+  padding-bottom: 56px;
+}
+
+.grow > .names > table .figur {
+  text-align: center;
+}
+
+.grow > .names > table .figur > img {
+  width: 168px;
+  height: 168px;
+  padding: 0px;
+}
+
+.grow > .names > table .figur h3 {
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  line-height: 28px;
+  color: #007765;
+  margin: 0;
+  margin-top: 12px;
+}
+
+.grow > .names > table .figur em {
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: italic;
+  line-height: 21px;
+  color: #000000;
+  margin: 0;
+}
+
+.end {
+  background: #333333;
+  width: 100%;
+  height: 176px;
+  min-width: 1219px;
+  position: absolute;
+  margin: 0 auto;
+  display: block;
+}
+
+.end > .text {
+  max-width: 540px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.end > .text > p {
+  margin: 0px;
+  padding: 0px;
+  padding-top: 50px;
+  padding-bottom: 62px;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  line-height: 21px;
+  color: #ffffff;
+}
